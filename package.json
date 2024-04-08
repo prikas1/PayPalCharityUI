@@ -1,5 +1,6 @@
-{ "homepage": "https://prikas1.github.com/PayPalCharityUI/",
+{ 
   "name": "paypalcharityui",
+  "homepage": "https://prikas1.github.com/PayPalCharityUI/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
