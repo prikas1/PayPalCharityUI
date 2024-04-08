@@ -8,7 +8,7 @@ const PayPalQuality = () => {
   return (
     
      <div className='Paypal helps px-3 lg:px-40 my-10 p-5 bg-slate-100'>
-  <h1 className='text-xl py-3 font-medium'>PayPal helps your gifts do more good</h1>
+  <h1 className='text-xl py-3 font-semibold'>PayPal helps your gifts do more good</h1>
   <div className='Qualities md:flex'>
   {QualityDatas.map(QualityData => (
   <Quality 

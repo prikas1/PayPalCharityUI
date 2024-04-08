@@ -8,7 +8,7 @@ export function Quality(props) {
    <div className='Quality py-5 mr-2'>
   <img src={props.img}></img>
   <p className='font-bold text-md py-2'>{props.para1}</p>
-  <p>{props.para2}</p>
+  <p className='font-medium'>{props.para2}</p>
   </div>
     )
 }

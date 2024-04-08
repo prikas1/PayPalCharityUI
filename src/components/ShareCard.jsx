@@ -22,7 +22,7 @@ const ShareCard = () => {
     </div>
     </div>
     <div className='px-6 py-10 bg-slate-100   flex items-center justify-between '>
-    <a className='link pr-5 text-sm font-medium whitespace-normal break-all'>https://www.paypal.com/US/fundraiser/charity/1279469</a>
+    <a className='link pr-5 text-sm font-semibold whitespace-normal break-all'>https://www.paypal.com/US/fundraiser/charity/1279469</a>
     
     <button className='btn px-2 py-1 text-sm' >Copy</button>
     

@@ -37,16 +37,16 @@ const [toggleMenu, setToggleMenu] = useState(false);
       <div className="flex justify-between">
         <div className='flex'>
            <div className='Brand-logo py-7 pl-2 md:pl-5'>
-          <img className="h-8"  src="images/PayPalLogo.png"></img>
+          <img className="h-8"  src="/PayPalCharityUI/images/PayPalLogo.png"></img>
           </div>
          
           <div className='menu'>
             {showMenu ? (
-              <ul className='flex'>
-                <li className='menu-li '><a >Personal</a></li>
-                <li className='menu-li'><a >Business</a></li>
-                <li className='menu-li'><a >Development</a></li>
-                <li className='menu-li'><a >Help</a></li>
+              <ul className='Header-menu flex'>
+                <li><a >Personal</a></li>
+                <li><a >Business</a></li>
+                <li><a >Development</a></li>
+                <li><a >Help</a></li>
               </ul>
             ) : (
             <div>
@@ -56,11 +56,11 @@ const [toggleMenu, setToggleMenu] = useState(false);
       {toggleMenu && (
         <div className="relative ml-5 mt-2">
           <div className="bg-black bg-opacity-70 absolute top-[-6px] z-10">
-            <ul>
-              <li className='toggle-menu-li'><a>Personal</a></li>
-              <li className='toggle-menu-li'><a>Business</a></li>
-              <li className='toggle-menu-li'><a>Development</a></li>
-              <li className='toggle-menu-li'><a>Help</a></li>
+            <ul className='toggle-menu'>
+              <li><a>Personal</a></li>
+              <li><a>Business</a></li>
+              <li><a>Development</a></li>
+              <li><a>Help</a></li>
             </ul>
           </div>
           <div className="absolute top-[-16px] bottom-10 left-1 w-6 h-6 bg-black bg-opacity-70 rotate-45 z-0"></div>

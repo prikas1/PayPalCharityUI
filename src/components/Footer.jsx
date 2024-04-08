@@ -9,10 +9,10 @@ const Footer = () => {
   return (
      <div className='footer px-5 pb-10 '>
   <div className='brand  '>
-  <img className="h-20" src="images/PayPalLogo2.png"></img>
+  <img className="h-20" src="/PayPalCharityUI/images/PayPalLogo2.png"></img>
   </div>
   <div className="xl:flex justify-between">
-      <ul className=' footer-menu flex flex-wrap'>
+      <ul className='footer-menu flex flex-wrap'>
         <li ><a >Help</a></li>
         <li><a >Contact</a></li>
         <li><a >Fees</a></li>
@@ -22,7 +22,7 @@ const Footer = () => {
         <li><a >Enterprise</a></li>
         <li><a >Partner</a></li>
       </ul>
-      <div className='pt-5 pb-5 xl:pb-0'><img className=' h-3' src="images/AFlag.png"></img></div>
+      <div className='pt-5 pb-5 xl:pb-0'><img className=' h-3' src="/PayPalCharityUI/images/AFlag.png"></img></div>
      </div>
       <hr />
     <div className="xl:flex justify-between">
