@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PayPalCharityUI/static/css/main.71076c18.css",
-    "main.js": "/PayPalCharityUI/static/js/main.470b7c8d.js",
+    "main.js": "/PayPalCharityUI/static/js/main.28566e26.js",
     "static/media/fa-solid-900.ttf": "/PayPalCharityUI/static/media/fa-solid-900.bacd5de623fb563b961a.ttf",
     "static/media/fa-brands-400.ttf": "/PayPalCharityUI/static/media/fa-brands-400.60127e352b7a11f7f1bc.ttf",
     "static/media/fa-solid-900.woff2": "/PayPalCharityUI/static/media/fa-solid-900.4d986b00ff9ca3828fbd.woff2",
@@ -12,10 +12,10 @@
     "static/media/fa-v4compatibility.woff2": "/PayPalCharityUI/static/media/fa-v4compatibility.cf7f5903d06b79ad60f1.woff2",
     "index.html": "/PayPalCharityUI/index.html",
     "main.71076c18.css.map": "/PayPalCharityUI/static/css/main.71076c18.css.map",
-    "main.470b7c8d.js.map": "/PayPalCharityUI/static/js/main.470b7c8d.js.map"
+    "main.28566e26.js.map": "/PayPalCharityUI/static/js/main.28566e26.js.map"
   },
   "entrypoints": [
     "static/css/main.71076c18.css",
-    "static/js/main.470b7c8d.js"
+    "static/js/main.28566e26.js"
   ]
 }
